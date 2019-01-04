@@ -25,7 +25,7 @@ def downloader(image_url):
 #using newspaper library
 from newspaper import Article
 #for example ,we used http://www.defencenews.in 
-defencenews = newspaper.build('http://www.defencenews.in/',
+defencenews = newspaper.build('http://target website/',
                               memoize_articles=False)
 
 for article in defencenews.articles:
